@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="148" id="KGk-i7-Jjw" customClass="NYCHighSchoolTableViewCell" customModule="_0231009_AkhilPuppala_NYCSchools" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="479" height="148"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="479" height="148"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zg-61-8p6">
+                        <rect key="frame" x="129" y="35" width="336" height="15.666666666666664"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="24E-hV-BQB">
+                        <rect key="frame" x="129" y="60.666666666666657" width="336" height="14"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NUS-01-8R0">
+                        <rect key="frame" x="129" y="84.666666666666671" width="336" height="15.333333333333329"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nmP-oM-mxg">
+                        <rect key="frame" x="129" y="110" width="336" height="16.333333333333329"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SchoolImage2" translatesAutoresizingMaskIntoConstraints="NO" id="bHM-9I-q5l">
+                        <rect key="frame" x="8" y="24" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="3Dl-tQ-Dgr"/>
+                            <constraint firstAttribute="width" secondItem="bHM-9I-q5l" secondAttribute="height" multiplier="69:62" constant="-11.290322580645153" id="z2r-Ph-608"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NUS-01-8R0" firstAttribute="top" secondItem="24E-hV-BQB" secondAttribute="bottom" constant="10" id="2Nj-eb-R1j"/>
+                    <constraint firstItem="nmP-oM-mxg" firstAttribute="top" secondItem="NUS-01-8R0" secondAttribute="bottom" constant="10" id="8SP-4f-X6E"/>
+                    <constraint firstItem="nmP-oM-mxg" firstAttribute="leading" secondItem="NUS-01-8R0" secondAttribute="leading" id="D7v-3A-U0k"/>
+                    <constraint firstItem="bHM-9I-q5l" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ewa-64-VRW"/>
+                    <constraint firstItem="bHM-9I-q5l" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="OMp-1Q-oNe"/>
+                    <constraint firstAttribute="bottom" secondItem="nmP-oM-mxg" secondAttribute="bottom" constant="21.666666666666671" id="SAQ-R1-Rdc"/>
+                    <constraint firstAttribute="trailing" secondItem="0Zg-61-8p6" secondAttribute="trailing" constant="14" id="aCS-8l-EbW"/>
+                    <constraint firstItem="NUS-01-8R0" firstAttribute="leading" secondItem="24E-hV-BQB" secondAttribute="leading" id="eHz-cq-M1F"/>
+                    <constraint firstItem="0Zg-61-8p6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="35" id="gDW-ua-rSI"/>
+                    <constraint firstItem="24E-hV-BQB" firstAttribute="top" secondItem="0Zg-61-8p6" secondAttribute="bottom" constant="10" id="h7m-87-DmD"/>
+                    <constraint firstItem="24E-hV-BQB" firstAttribute="trailing" secondItem="0Zg-61-8p6" secondAttribute="trailing" id="klO-ju-NhX"/>
+                    <constraint firstItem="NUS-01-8R0" firstAttribute="trailing" secondItem="24E-hV-BQB" secondAttribute="trailing" id="nGn-PB-C8q"/>
+                    <constraint firstItem="nmP-oM-mxg" firstAttribute="trailing" secondItem="NUS-01-8R0" secondAttribute="trailing" id="sNw-K2-Rxs"/>
+                    <constraint firstItem="0Zg-61-8p6" firstAttribute="leading" secondItem="bHM-9I-q5l" secondAttribute="trailing" constant="21" id="uf5-Es-4dK"/>
+                    <constraint firstItem="24E-hV-BQB" firstAttribute="leading" secondItem="0Zg-61-8p6" secondAttribute="leading" id="w9S-4k-eLp"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nycLocationLbl" destination="NUS-01-8R0" id="Udd-MX-7ul"/>
+                <outlet property="nycPhoneNumberLbl" destination="nmP-oM-mxg" id="q31-G3-sMU"/>
+                <outlet property="nycSchoolDescriptionLbl" destination="24E-hV-BQB" id="zhA-as-eYf"/>
+                <outlet property="nycSchoolNameLbl" destination="0Zg-61-8p6" id="r6F-hu-UEa"/>
+                <outlet property="schoolImageView" destination="bHM-9I-q5l" id="6Gt-ox-0zs"/>
+            </connections>
+            <point key="canvasLocation" x="-289.3129770992366" y="42.253521126760567"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="SchoolImage2" width="1642.6666259765625" height="1088"/>
+    </resources>
+</document>
